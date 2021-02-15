@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get Your Certificate of Completion for ECDL</title>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- style -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- favicon -->
+        <link rel="favicon" href="favicon.ico">
+    </head>
+
+    <body>
+        <!-- header -->
+        <header>
+            <!-- company logo -->
+            <!-- <img src="robust_logo.png" alt="company logo"> -->
+
+            <h4>Get your certificate of completion to</h4>
+
+            <!-- course logo -->
+            <img class="cert_logo" src="./ecdl-logo-full.jpg" alt="ecdl logo">
+        </header>
+
+
+        <!-- main -->
+        <main class="py-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+
+                        <!-- form -->
+                        <form>
+                            <div class="form-group row">
+                                <label for="name" class="col-sm-2 col-form-label">Full Name:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="name" id="name"
+                                        placeholder="Full Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="date" class="col-sm-2 col-form-label">Completion:</label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" name="date" id="date" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="userid" class="col-sm-2 col-form-label">Student ID:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="userid" id="userid" required>
+                                </div>
+                            </div>
+
+                            <button type="submit" id="submitBtn"
+                                class="btn btn-lg btn-block btn-primary">Submit</button>
+                        </form>
+                        <!-- end form -->
+
+
+                    </div>
+
+                    </form>
+                    <!-- end form -->
+                </div>
+            </div>
+            </div>
+
+
+        </main>
+
+
+        <!-- bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <!-- unpkg -->
+        <script src="https://unpkg.com/pdf-lib@1.16.0"></script>
+        <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4/dist/fontkit.umd.min.js"></script>
+        <!-- filesaver -->
+        <script src="./FileSaver.js"></script>
+        <!-- js -->
+        <script src="./index.js"></script>
+    </body>
+
+</html>
