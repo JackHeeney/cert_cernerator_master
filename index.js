@@ -78,22 +78,22 @@ const capitalize = (str, lower = false) =>
   });
 
   // Draws the string date onto the certificate
-  firstPage.drawText(date, {
-    x: 180,
-    y: 1180,
-    size: 158,
-    font: SanChezFont,
-    color: rgb(0.0, 0.0, 0.0),
-  });
+  // firstPage.drawText(date, {
+  //   x: 180,
+  //   y: 1180,
+  //   size: 158,
+  //   font: SanChezFont,
+  //   color: rgb(0.0, 0.0, 0.0),
+  // });
   
   // Draws the string userid onto the certificate
-  firstPage.drawText(userid, {
-    x: 780,
-    y: 1180,
-    size: 158,
-    font: SanChezFont,
-    color: rgb(0.0, 0.0, 0.0),
-  });
+  // firstPage.drawText(userid, {
+  //   x: 780,
+  //   y: 1180,
+  //   size: 158,
+  //   font: SanChezFont,
+  //   color: rgb(0.0, 0.0, 0.0),
+  // });
   
 
 // Save the PDFDocument and write it to a file
